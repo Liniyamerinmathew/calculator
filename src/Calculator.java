@@ -11,19 +11,23 @@ public class Calculator {
         switch (option) {
             case 1:
                 Addition();
+                break;
             case 2:
                 Substraction();
+                break;
             case 3:
                 Multiplication();
+                break;
             case 4:
                 Division();
+                break;
 
             default:
                 System.out.println("Invalid choice");
         }
 
     }
-    public static void Addition{
+    public static void Addition(){
         int a=0,b=0,c=0;
         System.out.println("Enter first number");
         Scanner add= new Scanner(System.in);
@@ -34,7 +38,7 @@ public class Calculator {
         System.out.println("Sum="+c);
 
     }
-    public static void Substraction{
+    public static void Substraction(){
         int a=0,b=0,c=0;
         System.out.println("Enter first number");
         Scanner add= new Scanner(System.in);
@@ -45,7 +49,7 @@ public class Calculator {
         System.out.println("Difference="+c);
 
     }
-    public static void Multiplication{
+    public static void Multiplication(){
         int a=0,b=0,c=0;
         System.out.println("Enter first number");
         Scanner add= new Scanner(System.in);
@@ -56,7 +60,7 @@ public class Calculator {
         System.out.println("Product="+c);
 
     }
-    public static void Division{
+    public static void Division(){
         int a=0,b=0,c=0;
         System.out.println("Enter first number");
         Scanner add= new Scanner(System.in);
