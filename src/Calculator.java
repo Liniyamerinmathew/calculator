@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) {
         int option;
-
-
             Scanner sc = new Scanner(System.in);
             System.out.println("Choose your option : 1. Addition \n 2. Substraction \n 3. Multiplication \n 4. Division\n 5. Exit");
             option = sc.nextInt();
@@ -61,14 +59,20 @@ public class Calculator {
 
     }
     public static void Division(){
-        int a=0,b=0,c=0;
-        System.out.println("Enter first number");
-        Scanner add= new Scanner(System.in);
-        a= add.nextInt();
-        System.out.println("Enter second number");
-        b= add.nextInt();
-        c=a/b;
-        System.out.println("Quotient="+c);
+        try{
+            int a=0,b=0,c=0;
+            System.out.println("Enter first number");
+            Scanner add= new Scanner(System.in);
+            a= add.nextInt();
+            System.out.println("Enter second number");
+            b= add.nextInt();
+
+            c = a / b;
+            System.out.println("Quotient=" + c);}
+            catch(ArithmeticException e)
+            {
+                System.out.println(e);}
+
 
     }
 
