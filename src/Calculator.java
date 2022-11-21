@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
-        int a=0,b=0,c=0,option;
+        int option;
 
 
             Scanner sc = new Scanner(System.in);
@@ -21,6 +21,17 @@ public class Calculator {
                 System.out.println("Invalid choice");
         }
 
+    }
+    public static void Addition{
+        int a=0,b=0,c=0;
+        System.out.println("Enter first number");
+        Scanner add= new Scanner(System.in);
+        a= add.nextInt();
+        System.out.println("Enter second number");
+        b= add.nextInt();
+        c=a+b;
+        System.out.println("Sum="+c);
 
     }
+
 }
