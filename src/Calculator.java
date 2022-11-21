@@ -56,5 +56,16 @@ public class Calculator {
         System.out.println("Product="+c);
 
     }
+    public static void Division{
+        int a=0,b=0,c=0;
+        System.out.println("Enter first number");
+        Scanner add= new Scanner(System.in);
+        a= add.nextInt();
+        System.out.println("Enter second number");
+        b= add.nextInt();
+        c=a/b;
+        System.out.println("Quotient="+c);
+
+    }
 
 }
