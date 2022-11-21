@@ -6,7 +6,7 @@ public class Calculator {
 
 
             Scanner sc = new Scanner(System.in);
-            System.out.println("Choose your option : 1. Addition \n 2. Substraction \n 3. Multiplication \n 4. Division\n");
+            System.out.println("Choose your option : 1. Addition \n 2. Substraction \n 3. Multiplication \n 4. Division\n 5. Exit");
             option = sc.nextInt();
         switch (option) {
             case 1:
@@ -17,6 +17,7 @@ public class Calculator {
                 Multiplication();
             case 4:
                 Division();
+
             default:
                 System.out.println("Invalid choice");
         }
